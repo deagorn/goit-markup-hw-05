@@ -119,7 +119,9 @@ img {
 .logo-part {
   color: var(--dark);
 }
-
+.menu-item {
+  position: relative;
+}
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
