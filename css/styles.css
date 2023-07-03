@@ -103,6 +103,7 @@ img {
 }
 .nav-item {
   padding: 24px 0;
+  position: relative;
 }
 .logo {
   text-decoration: none;
@@ -119,9 +120,7 @@ img {
 .logo-part {
   color: var(--dark);
 }
-.menu-item {
-  position: relative;
-}
+
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
