@@ -166,7 +166,20 @@ img {
 .auth-nav-first {
   margin-right: 40px;
 }
+.current-page {
+  color: var(--pressed-state);
+}
 
+.current-page::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  width: 100%;
+  background-color: var(--pressed-state);
+  border-radius: 2px;
+}
 /**
   |============================
   |           hero
